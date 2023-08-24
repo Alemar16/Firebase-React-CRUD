@@ -3,13 +3,18 @@ import "./App.css";
 import Create from "./components/Create";
 import Edit from "./components/Edit";
 import Show from "./components/Show";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  return <div className="App">
-    <h1>Hello World </h1>
-    <button className="btn btn-primary">Crear</button>
-    <Show />
-  </div>;
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Show />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/edit/:id" element={<Edit />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
