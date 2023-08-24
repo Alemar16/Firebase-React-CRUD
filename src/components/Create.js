@@ -2,7 +2,7 @@ import React from 'react'
 
 const Create = () => {
   return (
-    <div>Create</div>
+    <div>Vista de Create</div>
   )
 }
 

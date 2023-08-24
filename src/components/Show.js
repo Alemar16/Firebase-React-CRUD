@@ -25,7 +25,7 @@ const Show = () => {
   const getProducts = async () => {
     const data = await getDocs(productsCollection);
     setProducts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    //console.log(products);
+    console.log(products);
   };
 
   // 4- funcion para eliminar un documento
@@ -47,6 +47,7 @@ const Show = () => {
 
   return (
     <>
+      {/* boton create */}
       <div className="container">
         <div className="row">
           <div className="col">
@@ -54,12 +55,14 @@ const Show = () => {
             <Link to="/create" className="btn btn-secondary mt-2 mb-2">
               Create
             </Link>
+
+            {/* tabla de datos */}
             <table className="table table-dark table-hover">
               <thead>
                 <tr>
-                  <th scope="col">Description</th>
-                  <th scope="col">Stock</th>
-                  <th scope="col">Actions</th>
+                  <th>Description</th>
+                  <th>Stock</th>
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
