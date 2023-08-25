@@ -36,6 +36,22 @@ const Show = () => {
   };
 
   // 5- funcion de configuracion de la alerta con Sweet Alert 2
+  const confirDelete = (id) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        deleteProduct(id);// llamamos a la funcion para eliminar
+        Swal.fire("Deleted!", "Your file has been deleted.", "success");
+      }
+    });
+  }
 
   // 6- usamos useEffect
   useEffect(() => {
@@ -79,7 +95,7 @@ const Show = () => {
                       </Link>
                       <button
                         className="btn btn-danger"
-                        onClick={() => deleteProduct(product.id)}
+                        onClick={() => confirDelete(product.id)}
                       >
                         <i className="fa-regular fa-trash-can"></i>
                       </button>
