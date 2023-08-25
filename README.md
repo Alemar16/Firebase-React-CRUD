@@ -2,7 +2,7 @@
 
 <!-- ![Captura de la Aplicación](./src/assets/image/captura-1.jpeg) -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="./src/assets/image/captura-1.jpeg" alt="Captura de la Aplicación" width="400">
+  <img src="./src/assets/image/captura-1.jpeg" alt="Captura de la Aplicación" width="500">
 </div>
 
 ## Descripción
@@ -44,16 +44,16 @@ Además del framework de React, también se utilizaron otras librerías como: [B
 ## Imagenes de la aplicación
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="./src/assets/image/captura-1.jpeg" alt="Captura de la Aplicación" width="400">
-  <img src="./src/assets/image/captura-2.jpeg" alt="Captura de la Aplicación" width="400">
+  <img src="./src/assets/image/captura-1.jpeg" alt="Captura de la Aplicación" width="300">
+  <img src="./src/assets/image/captura-2.jpeg" alt="Captura de la Aplicación" width="300">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="./src/assets/image/captura-3.jpeg" alt="Captura de la Aplicación" width="400">
-  <img src="./src/assets/image/captura-4.jpeg" alt="Captura de la Aplicación" width="400">
+  <img src="./src/assets/image/captura-3.jpeg" alt="Captura de la Aplicación" width="300">
+  <img src="./src/assets/image/captura-4.jpeg" alt="Captura de la Aplicación" width="300">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="./src/assets/image/captura-5.jpeg" alt="Captura de la Aplicación" width="400">
-  <img src="./src/assets/image/captura-8.png" alt="Captura de la Aplicación" width="400">
+  <img src="./src/assets/image/captura-5.jpeg" alt="Captura de la Aplicación" width="300">
+  <img src="./src/assets/image/captura-8.png" alt="Captura de la Aplicación" width="300">
 </div>
