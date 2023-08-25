@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {
   collection,
   getDocs,
-  getDoc,
+  
   deleteDoc,
   doc,
 } from "firebase/firestore";
@@ -11,7 +11,8 @@ import { db } from "../firebaseConfig/firebase";
 
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { async } from "@firebase/util";
+
+// eslint-disable-next-line
 const MySwal = withReactContent(Swal);
 
 const Show = () => {
