@@ -3,6 +3,13 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getDoc, updateDoc, doc } from "firebase/firestore";
 import { db } from "../firebaseConfig/firebase";
 
+//import de sweetalert
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+// eslint-disable-next-line
+const MySwal = withReactContent(Swal);
+
 const Edit = () => {
   // 1- configuracion de hooks
   const [description, setDescription] = useState("");
@@ -37,6 +44,17 @@ const Edit = () => {
     // eslint-disable-next-line
   }, []);
 
+  // 4- configuracion de la alerta con Sweet Alert 2
+  const confirUpdate = (id) => {
+   Swal.fire({
+     position: "top-end",
+     icon: "success",
+     title: "Your product has been edited",
+     showConfirmButton: false,
+     timer: 1500,
+   });
+  };
+
   return (
     <div className="container">
       <div className="row">
@@ -68,7 +86,7 @@ const Edit = () => {
             </div>
 
             {/* boton */}
-            <button type="submit" className="btn btn-primary">
+            <button onClick={confirUpdate} type="submit" className="btn btn-primary">
               Update
             </button>
           </form>

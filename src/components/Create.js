@@ -4,6 +4,13 @@ import { useNavigate } from "react-router-dom";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebaseConfig/firebase";
 
+//import de sweetalert
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+// eslint-disable-next-line
+const MySwal = withReactContent(Swal);
+
 const Create = () => {
   // 1- configuracion de hooks
   const [description, setDescription] = useState("");
@@ -22,6 +29,16 @@ const Create = () => {
     navigate("/");
   }
 
+  // 4- funcion de configuracion de la alerta con Sweet Alert 2
+  const confirCreate = (id) => {
+   Swal.fire({
+     position: "top-end",
+     icon: "success",
+     title: "Your product has been saved",
+     showConfirmButton: false,
+     timer: 1500,
+   });
+  };
 
 
 
@@ -57,7 +74,7 @@ const Create = () => {
             </div>
 
             {/* boton */}
-            <button type="submit" className="btn btn-primary">Create</button>
+            <button onClick={confirCreate} type="submit" className="btn btn-primary">Create</button>
           </form>
         </div>
       </div>
