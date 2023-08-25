@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Aplication-Auth-Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Capturas de la Aplicación]()
 
-## Available Scripts
+## Descripción
+FIREBASE es básicamente un servicio en la nube de Google, lo que significa que te permite tener una base de datos en la nube de manera sencilla. Te permite cargar archivos, autenticar usuarios e incluso procesar archivos de imágenes y más, como el aprendizaje automático, por ejemplo. En este caso, estaremos utilizando un producto llamado FIREBASE DATABASE.
 
-In the project directory, you can run:
 
-### `npm start`
+## Características de la Aplicación
+- Característica 1: Registrar Usuarios.
+- Característica 2: Iniciar seccion con usuarios registrados.
+- Característica 3: guardar registros en la plataforma de Firebase con el servicio de Auth.: https://console.firebase.google.com/
+- Caracteristica 4: Uso de estilos con framework Bootstrap: https://getbootstrap.com/
+- Caracteristica 5: Uso de estilos para alerts con librería Toastify JS: https://apvarun.github.io/toastify-js/#
+- Característica 6: Carga de informacion en Firestore basedata con elementos mostrados en interfaz .
+- Característica 7: Uso de Firebase Hosting para el deploy de la App.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Instalación
+1. Clona el repositorio: `git clone https://github.com/Alemar16/to-Do_with-Firebase.git`
+2. Navega hasta el directorio del proyecto: `index.html`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Uso
+1. solo debes ingresar a este enlace: https://fir-app-auth-3cd42.web.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Capturas de la Aplicación]()
